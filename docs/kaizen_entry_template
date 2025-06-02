@@ -1,0 +1,15 @@
+# Kaizen Entry Template
+
+Used to submit field suggestions that improve productivity, safety, or sustainability.
+
+## Example Entry
+```json
+{
+  "submitted_by": "Yordel",
+  "date": "2025-06-02",
+  "category": "plant",
+  "reference_id": "plant_tithonia",
+  "suggestion": "Plant closer to turmeric patches to reduce insects",
+  "status": "under_review"
+}
+
