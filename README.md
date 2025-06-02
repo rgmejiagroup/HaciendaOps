@@ -49,7 +49,7 @@ When ready, this Markdown-based system can sync with:
 - 📡 `websocket_sync.py` → Live dashboard updates
 - 🧾 `audit_logger.py` → Immutable activity records
 
-These are included in the `/archive/` or development branches but are **not active parts of the current doc-only deployment**.
+These are included in local development but are **not active parts of the current doc-only deployment**.
 
 ---
 
