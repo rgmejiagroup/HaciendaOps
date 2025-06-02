@@ -27,6 +27,25 @@ This system combines:
 - Organic compost and pest control recipes
 - Maintenance tracking
 
+
+🧭 Field Guide & Documentation
+This repository includes a training-oriented Field Guide for rural teams and students using the system in real-world environments.
+
+📂 docs/field_guide/ contains:
+
+-plant.md – Organic and medicinal plants tracked by zone and usage
+-animal.md – Livestock profiles (e.g., Pelibuey goats)
+-tool.md – Basic field tools with safety and Kaizen notes
+
+📄 Additional Docs:
+
+-overview.md – Purpose of the Field Guide
+-kaizen_entry_template.md – Template for submitting field-based improvements and insights
+
+This system supports Kaizen integration: field workers can submit suggestions that are reviewed and linked to live entries via kaizen_notes.
+
+✨ This Field Guide is also being used as part of an educational deliverable for a university-level documentation course focused on building real-world, integrated technical projects.
+
 ### API Endpoints
 
 #### Plants
