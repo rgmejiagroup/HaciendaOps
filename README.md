@@ -1,106 +1,64 @@
-# HaciendaOps Field Guide
+# 🌱 HaciendaOps – Field Guide System
 
-## 📘 Sustainable Agriculture Documentation System
+**HaciendaOps** is a documentation-first knowledge system supporting sustainable agriculture and ecotourism teams in rural Nicaragua. Originally designed as a Flask API, this project now focuses on structured field knowledge, Kaizen workflows, and educational integration.
 
-**HaciendaOps** is a documentation-first project designed to support training, operations, and continuous improvement for organic farms and ecotourism sanctuaries.  
+## 🧭 Field Guide Overview
 
-This repository currently focuses on a **lightweight Field Guide** that captures key agricultural knowledge in a structured, accessible format.
+This repository includes a Markdown-based training and operations guide used by rural teams and students to support sustainable farming and eco-projects across 2,000+ manzanas of land.
 
-> 🔎 This version is *documentation-only* and is being developed as part of a university-level course on usability and technical writing. Future code-based components (e.g., syncing with `master_server.py`) will be added separately.
+**Docs Live In:** `docs/field_guide/`
 
----
-
-## 🌿 Project Purpose
-
-The Field Guide supports:
-- 📚 Learning for interns and new workers
-- 🧠 Reference material for sustainable agriculture teams
-- ✍️ Kaizen-style feedback from the field
-- 🛠️ Preparation for future software automation (optional)
+- `plant.md` – Medicinal, aromatic, and food crops
+- `animal.md` – Livestock specs (e.g., Pelibuey goats)
+- `tool.md` – Equipment profiles + safety/Kaizen notes
+- `overview.md` – How to use the Field Guide system
 
 ---
 
-## 📁 Repository Contents
+## 🛠️ Kaizen Integration
 
-### `docs/field_guide/`
-Structured data files written in Markdown (JSON-style):
+Field workers submit improvement ideas using:
+- `docs/kaizen_entry_template.md`
 
-| File              | Description                                                 |
-|-------------------|-------------------------------------------------------------|
-| `plant.md`        | Organic and medicinal plants, care zones, toxicity, usage   |
-| `animal.md`       | Livestock profiles and traits (e.g., Pelibuey goats)        |
-| `tool.md`         | Basic tools used in the field, with safety notes            |
-
-### `docs/`
-Additional documentation and submission materials:
-
-| File                        | Description                                                   |
-|-----------------------------|---------------------------------------------------------------|
-| `overview.md`               | Overview of the Field Guide system and how it’s used          |
-| `kaizen_entry_template.md`  | Template for proposing improvements or observations from the field |
+Once approved, Kaizen entries are added to the official Markdown pages for future reference and process tuning.
 
 ---
 
-## 🧪 Educational Context
+## 🎓 Educational Use Case
 
-This repository was built as part of a technical writing and usability course, with the following goals:
-
-- 🛠️ Design documentation that can be used remotely and without moderation
-- ✍️ Structure reference material for farm workers and students
-- 🧭 Plan future integrations with automation and smart farm APIs
-
----
-
-## 🧭 Future Integration Plans (Documentation Only)
-
-The structure here is designed to support eventual connection to:
-- `master_server.py` and `shared_data_service.py`
-- Real-time goat and crop tracking systems
-- Voice-based data entry and API sync for field conditions
-
-> But for now, the **focus is strictly on documentation and usability testing**.
+This project was restructured as part of a university-level documentation course to demonstrate:
+- Multi-layered documentation design
+- Integration of field, operational, and legal insights
+- Modular growth from docs to API → automation
 
 ---
 
-## 🧠 How the Field Guide Works
+## 📂 Example Use Flow
 
-Each entry in the Field Guide (plant, animal, or tool) includes:
-
-- `id`: Unique internal reference
-- `name` or `species`
-- `uses`, `zones`, or `traits`
-- `kaizen_notes`: A field for observations or feedback
-
-Approved suggestions from the field can be added via the `kaizen_entry_template.md`.
+1. A worker scans a QR code at a planting site.
+2. They reference the relevant `plant.md` entry for care instructions.
+3. If a better method is discovered, they log a Kaizen proposal.
+4. Once approved, the `docs/` folder is updated with the new best practice.
 
 ---
 
-## 💡 Example Use Case
+## 💡 Future Integration Possibilities
 
-> A new intern is assigned to clear brush and monitor goats. They check:
->
-> - `tool.md` → Safe handling of machetes  
-> - `plant.md` → Which plants are toxic to goats  
-> - `animal.md` → How to identify goats via RFID  
-> - `kaizen_entry_template.md` → Submit a field note for future improvement
+When ready, this Markdown-based system can sync with:
+- 🛠️ `master_server.py` → For voice/photo reporting
+- 📡 `websocket_sync.py` → Live dashboard updates
+- 🧾 `audit_logger.py` → Immutable activity records
 
----
-
-## 🗂️ Next Steps for Contributors
-
-If you’d like to contribute:
-- Submit new `plant`, `animal`, or `tool` entries
-- Propose edits to `overview.md` for clarity
-- Use `kaizen_entry_template.md` to suggest improvements
-
-This project welcomes feedback from farmers, interns, and sustainability researchers.
+These are included in the `/archive/` or development branches but are **not active parts of the current doc-only deployment**.
 
 ---
 
-## 📄 License
+## 👤 Credits & License
 
-MIT License — for educational and documentation use.
+Based on the field methodology and sustainability vision of **Yorby Duartes**.
+
+MIT License · Educational Use Only
 
 ---
 
-**"Connecting people with nature through sustainable agriculture, organic food, and holistic wellness — one field guide at a time."**
+> “Simple documentation today builds intelligent ecosystems tomorrow.” – Los Primos Unidos
