@@ -17,7 +17,7 @@ Provides information about tools at the farm, including how to use the tool and 
 
 Sample `tool` resource
 
-```js
+```json
 
 {
     "id": "1",
