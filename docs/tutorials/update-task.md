@@ -1,6 +1,6 @@
-# Adding tasks
+# Updating tasks
 
-The HaciendaOps API lets users add new tasks as mecessary.
+The HaciendaOps API allows users to update tasks, including the completion status of a task or modifying the due date.
 
 ## Prerequisites
 
@@ -18,11 +18,11 @@ The HaciendaOps API lets users add new tasks as mecessary.
      json-server -w hfg-db.json
 
 2. Open the Postman app on your computer.
-3. Create the task you want to add, using the existing formatting from the task list. For a list of the tasks currently recorded, create a new request with the following values:
+3. For a list of the tasks currently recorded, create a new request with the following values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/task`
     * **Header**: `Content-Type: application/json`
-    * **Request Body**:
+    * **Return Body**:
 
 ```json
     {   
@@ -44,30 +44,24 @@ The HaciendaOps API lets users add new tasks as mecessary.
     }
 ```
 
-4. After creating a new task, create a new request with the following values:
-    * **METHOD**: POST
-    * **URL**: `{{base_url}}/task/{not-in-usetaskId}`
+4. After completing a task, for example, create a new request with the following values:
+    * **METHOD**: PATCH
+    * **URL**: `{{base_url}}/task/{completetaskId}`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
 
 ```json
 
 {
-    "id": 3,
-    "title": "Clip weeds",
-    "description": "Remove the weeds from Garden C",
-    "task_type": "Pruning",
-    "due_date": "2024-06-07",
-    "completed": false,
-    "kaizen_notes": "N/A"
+    "completed": true,
 }
 ```
 
-5. To confirm the task is now on the list, create a request with the following values:
+5. To confirm the task is now complete, create a request with the following values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/task/{previoustaskId}`
     * **Header**: `Content-Type: application/json`
-    * **Request Body**:
+    * **Response Body**:
 
 ```json
 
@@ -82,8 +76,8 @@ The HaciendaOps API lets users add new tasks as mecessary.
 }
 ```
 
-6. Postman returns the preceeding response if the task addition was successful.
+6. Postman returns the preceeding response if the task modification was successful.
 
 ## Result
 
-You can now locate and add new tasks in HaciendaOps.
+You can now update existing tasks in HaciendaOps.
