@@ -25,11 +25,11 @@ This project was restructured as part of a university-level documentation course
 
 ---
 
-## 📂 Example use flow
+## 📂 Example workflow
 
 1. A worker scans a QR code at a planting site.
 2. They reference the relevant `plant.md` entry for care instructions.
-3. If a better method is discovered, they log a Kaizen proposal.
+3. If a better method is discovered, they modify a resource as necessary.
 4. Once approved, the `docs/` folder is updated with the new best practice.
 
 ---
