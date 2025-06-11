@@ -19,7 +19,7 @@ The HaciendaOps API lets users add new tasks as necessary.
 
 2. Open the Postman app on your computer.
 3. Create the task you want to add, using the existing formatting from the task list. For a list of the tasks currently available in the to-do list, create a new request with the following values:
-    * **METHOD**: POST
+    * **METHOD**: GET
     * **URL**: `{{base_url}}/task`
     * **Header**: `Content-Type: application/json`
     * **Response Body**:
