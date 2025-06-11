@@ -20,7 +20,7 @@ the entire ecosystem can be adequately tracked.
 
 Each entry includes a `kaizen_notes` section for observations or improvements from the field, which may be reviewed and approved over time.
 
-### Features
+## Features
 
 - Assign and record ongoing tasks
 - Monitor animals
