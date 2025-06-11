@@ -45,7 +45,7 @@ The HaciendaOps API lets users add new tasks as necessary.
 ```
 
 4. After creating a new task, create a new request with the following values:
-    * **METHOD**: DELETE
+    * **METHOD**: POST
     * **URL**: `{{base_url}}/task/{not-in-usetaskId}`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
