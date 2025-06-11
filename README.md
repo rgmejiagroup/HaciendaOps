@@ -15,16 +15,6 @@ This repository includes a Markdown-based training and operations guide used by 
 
 ---
 
-## 🛠️ Kaizen integration
-
-Field workers submit improvement ideas using:
-
-- `docs/kaizen_entry_template.md`
-
-Once approved, Kaizen entries are added to the official Markdown pages for future reference and process tuning.
-
----
-
 ## 🎓 Educational use case
 
 This project was restructured as part of a university-level documentation course to demonstrate:
