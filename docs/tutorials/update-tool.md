@@ -4,7 +4,7 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 
 ## Prerequisites
 
-* An existing database with tasks
+* An existing database with tools
 * Access to a command line or Postman
     * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
 
