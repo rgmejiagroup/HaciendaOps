@@ -1,6 +1,6 @@
 # Adding tasks
 
-The HaciendaOps API lets users add new tasks as mecessary.
+The HaciendaOps API lets users add new tasks as necessary.
 
 ## Prerequisites
 
