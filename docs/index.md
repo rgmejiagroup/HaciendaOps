@@ -22,9 +22,7 @@ Each entry includes a `kaizen_notes` section for observations or improvements fr
 
 ## Features
 
-- Assign and record ongoing tasks
-- Monitor animals
-    - Update last seen timestamp
+For a detailed list of the functions and features of HaciendaOps, see the [Quickstart guide](docs/index.md).
 
 ## HaciendaOps prerequisites
 
