@@ -19,6 +19,6 @@ on the installation of the service but when the API is running locally for testi
 
 ## Tutorials
 
-Before reviewing the tutorials, confirm you've completed and set up your development system with the [HaciendaOps prerequities](https://github.com/rgmejiagroup/HaciendaOps) section of the [Overview](./docs/overview.md) topic.
+Before reviewing the tutorials, confirm you've completed and set up your development system with the [Overview](./docs/overview.md) topic.
 
 After confirming your development system is ready to begin operating the API, the following topics highlight the most commonly used tasks in HaciendaOps:
