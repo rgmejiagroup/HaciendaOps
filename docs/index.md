@@ -22,7 +22,7 @@ Each entry includes a `kaizen_notes` section for observations or improvements fr
 
 ## Features
 
-For a detailed list of the functions and features of HaciendaOps, see the [Quickstart guide](docs/index.md).
+For a detailed list of the functions and features of HaciendaOps, see the [Quickstart guide](docs/quickstart.md).
 
 ## HaciendaOps prerequisites
 
