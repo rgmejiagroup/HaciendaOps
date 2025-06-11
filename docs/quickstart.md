@@ -22,3 +22,13 @@ on the installation of the service but when the API is running locally for testi
 Before reviewing the tutorials, confirm you've completed and set up your development system with the [Overview](./docs/overview.md) topic.
 
 After confirming your development system is ready to begin operating the API, the following topics highlight the most commonly used tasks in HaciendaOps:
+
+* Task management
+    * Adding a task
+    * Deleting old tasks
+    * Updating in-progress tasks
+
+* Toolbox management
+    * Adding a tool
+    * Removing broken tools
+    * Updating saftey information for tools
