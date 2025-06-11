@@ -13,7 +13,7 @@ Removes a [`task`](task.md) object specified by the `id` parameter.
 | Name | Variable |
 | ---- | ---------|
 | base_url | string |
-| tasks | string |
+| task | string |
 | taskId | integer |
 
 ## Header
