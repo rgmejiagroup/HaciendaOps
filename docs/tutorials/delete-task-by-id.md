@@ -26,7 +26,7 @@ or remove tasks that are no longer relevant.
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
 
-    ```
+    ```json
         {   
         "id": 1,
         "title": "Morning irrigation",
