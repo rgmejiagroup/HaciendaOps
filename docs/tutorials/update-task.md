@@ -18,8 +18,8 @@ The HaciendaOps API lets users add new tasks as mecessary.
      json-server -w hfg-db.json
 
 2. Open the Postman app on your computer.
-3. Create the task you want to add, using the existing formatting from the task list. For a list of the tasks currently available in the to-do list, create a new request with the following values:
-    * **METHOD**: POST
+3. Create the task you want to add, using the existing formatting from the task list. For a list of the tasks currently recorded, create a new request with the following values:
+    * **METHOD**: GET
     * **URL**: `{{base_url}}/task`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
@@ -45,7 +45,7 @@ The HaciendaOps API lets users add new tasks as mecessary.
 ```
 
 4. After creating a new task, create a new request with the following values:
-    * **METHOD**: DELETE
+    * **METHOD**: POST
     * **URL**: `{{base_url}}/task/{not-in-usetaskId}`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
