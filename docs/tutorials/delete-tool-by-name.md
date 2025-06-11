@@ -26,7 +26,8 @@ or remove tasks that are no longer relevant.
     * **Header**: `Content-Type: application/json`
     * **Return Body**:
 
-    ```
+```json
+
         {   
         "id": 1,
         "title": "Morning irrigation",
@@ -44,6 +45,8 @@ or remove tasks that are no longer relevant.
         "due_date": "2024-06-06",
         "completed": false
         }
+
+```
 
 4. After locating the tool to delete, create a new request with the following values:
     * **METHOD**: DELETE
