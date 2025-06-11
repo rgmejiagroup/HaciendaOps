@@ -18,7 +18,7 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
      json-server -w hfg-db.json
 
 2. Open the Postman app on your computer.
-3. For a list of the tasks currently available in the to-do list, create a new request with the following values:
+3. For a list of the tools currently available in the toolbox, create a new request with the following values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/tool`
     * **Header**: `Content-Type: application/json`
