@@ -8,7 +8,7 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 * Access to a command line or Postman
     * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
 
-## Update an existing tool
+## Update the toolbox
 
 1. Confirm the local HaciendaOps instance is running.
    * If the service isn't running, run the following command:
