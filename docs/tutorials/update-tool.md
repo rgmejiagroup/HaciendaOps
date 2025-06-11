@@ -8,7 +8,7 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 * Access to a command line or Postman
     * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
 
-## Deleting an existing task
+## Update an existing tool
 
 1. Confirm the local HaciendaOps instance is running.
    * If the service isn't running, run the following command:
@@ -45,7 +45,7 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 
 4. Once a tool needs safety or training updates, create a new request with the following values:
     * **METHOD**: PATCH
-    * **URL**: `{{base_url}}/task/{toolId}`
+    * **URL**: `{{base_url}}/tool/{toolId}`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
 
@@ -58,9 +58,9 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 
 5. To confirm the tool now has the correct information, create a request with the following values:
     * **METHOD**: GET
-    * **URL**: `{{base_url}}/task/{previoustoolId}`
+    * **URL**: `{{base_url}}/tool/{previoustoolId}`
     * **Header**: `Content-Type: application/json`
-    * **Response Body**:
+    * **Return Body**:
 
 ```json
 
