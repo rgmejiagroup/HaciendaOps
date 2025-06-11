@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# `tasks` resource
+# `task` resource
 
 Base endpoint:
 
@@ -17,7 +17,7 @@ Provides information about pending and ongoing tasks at the farm using HaciendaO
 
 Sample `task` resource
 
-```js
+```json
 
 {
     "id": 1,
@@ -42,12 +42,16 @@ Sample `task` resource
 
 ## Read
 
-* Get task
+* [Get all tasks](./api/task-get-all.md)
 
 ## Create
 
-* Add a task
+* [Add a new task](./api/task-add.md)
 
 ## Update
 
-* Patch a task
+* [Patch a task's completion status](./api/task-update-completed.md)
+
+## Delete
+
+* [Delete a task by ID](./api/task-delete-id.md)

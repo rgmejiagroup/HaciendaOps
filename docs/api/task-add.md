@@ -6,7 +6,7 @@ Adds a [`task`](task.md) object to the HaciendaOps instance.
 
 **Method**: `POST`
 
-**URL**: `{{base_url}}/task`
+**URL**: `{{base_url}}/task/{taskId}`
 
 ## Parameter
 
@@ -39,7 +39,7 @@ Adds a [`task`](task.md) object to the HaciendaOps instance.
 }
 ```
 
-## Return body
+## Response body
 
 ```json
 

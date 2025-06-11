@@ -19,15 +19,16 @@ or remove tasks that are no longer relevant.
      json-server -w hfg-db.json
 
 2. Open the Postman app on your computer.
-3. Locate the task you want to delete. For a full list of the tasks currently available in the to-do list, create a new request
+3. Locate the task you want to delete. For a full list of the tasks currently recorded, create a new request
    with the following values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/task`
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
 
-    ```
-        {   
+```json
+
+{   
         "id": 1,
         "title": "Morning irrigation",
         "description": "Water the plants in Garden A",
@@ -35,15 +36,17 @@ or remove tasks that are no longer relevant.
         "due_date": "2024-06-05",
         "completed": false,
         "kaizen_notes": "Consider shifting to sunrise-only watering to reduce evaporation."
-        },
-        {
+},
+{
         "id": 2,
         "title": "Apply compost",
         "description": "Use organic compost in Zone B",
         "task_type": "Fertilizing",
         "due_date": "2024-06-06",
         "completed": false
-        }
+}
+
+```
 
 4. After locating the task to delete, create a new request with the following values:
     * **METHOD**: DELETE
