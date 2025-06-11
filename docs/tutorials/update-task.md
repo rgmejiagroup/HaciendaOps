@@ -8,7 +8,7 @@ The HaciendaOps API allows users to update tasks, including the completion statu
 * Access to a command line or Postman
     * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
 
-## Deleting an existing task
+## Update an existing task
 
 1. Confirm the local HaciendaOps instance is running.
    * If the service isn't running, run the following command:
