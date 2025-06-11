@@ -24,11 +24,11 @@ Before reviewing the tutorials, confirm you've completed and set up your develop
 After confirming your development system is ready to begin operating the API, the following topics highlight the most commonly used tasks in HaciendaOps:
 
 * Task management
-    * Adding a task
-    * Deleting old tasks
-    * Updating in-progress tasks
+    * [Adding a task](tutorials/add-task.md)
+    * [Deleting old tasks](tutorials/delete-task-by-id.md)
+    * [Updating in-progress tasks](tutorials/update-task.md)
 
 * Toolbox management
-    * Adding a tool
-    * Removing broken tools
-    * Updating saftey information for tools
+    * [Search the toolbox](tutorials/get-tool.md)
+    * [Removing broken tools](tutorials/delete-tool-by-name.md)
+    * [Updating saftey information for tools](tutorials/update-tool.md)
