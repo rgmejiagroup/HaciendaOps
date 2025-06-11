@@ -22,7 +22,7 @@ The HaciendaOps API lets users add new tasks as necessary.
     * **METHOD**: POST
     * **URL**: `{{base_url}}/task`
     * **Header**: `Content-Type: application/json`
-    * **Request Body**:
+    * **Response Body**:
 
 ```json
     {   
@@ -67,7 +67,7 @@ The HaciendaOps API lets users add new tasks as necessary.
     * **METHOD**: GET
     * **URL**: `{{base_url}}/task/{previoustaskId}`
     * **Header**: `Content-Type: application/json`
-    * **Request Body**:
+    * **Response Body**:
 
 ```json
 
