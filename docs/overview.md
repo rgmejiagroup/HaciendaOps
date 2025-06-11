@@ -26,7 +26,7 @@ Each entry includes a `kaizen_notes` section for observations or improvements fr
 - Monitor animals
     - Update last seen timestamp
 
-## To-do list prerequisites
+## HaciendaOps prerequisites
 
 - A [GitHub account](https://github.com)
 - A development system running a current version or a
@@ -34,17 +34,15 @@ long-term support, also known as `LTS`, version of the Windows, MacOS, or Linux 
 - The following software on your development system:
     - [Git, command line](https://docs.github.com/en/get-started/quickstart/set-up-git)
     - Optionally, [GitHub Desktop](https://desktop.github.com).
-    - A fork of the [To-Do-Service repository](https://github.com/UWC2-APIDOC/to-do-service-sp25)
+    - A fork of the [HaciendaOps repository](https://github.com/rgmejiagroup/HaciendaOps)
     - A current or `LTS` version of `node.js`
     - Version 0.17.4 or later of [json-server](https://www.npmjs.com/package/json-server)
     - A current copy of the database file. You can get this by syncing your fork.
 
-For information about testing the API, see [Test your development system](https://github.com/UWC2-APIDOC/to-do-service-sp25/blob/main/docs/before-you-start-a-tutorial.md#test-your-development-system).
-
 ## Contributing to the API
 
-You can submit a pull request for review to update the existing API documentation for the to-do list.
-This can include bug fixes, code changes, proposing a new feature, or just maintaining out-of-date resources.
+You can submit a pull request for review to update the existing API documentation for the resources in HaciendaOps.
+This can include bug fixes, code changes, proposing a new addition, or just maintaining out-of-date resources.
 To contribute, follow the steps below:
 
 1. Fork this repository to your GitHub account.
