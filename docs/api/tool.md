@@ -40,12 +40,16 @@ Sample `tool` resource
 
 ## Read
 
-* Get tool
+* [Get all tools](./api/tool-get-all.md)
 
 ## Create
 
-* Add a tool
+* [Add a new tool](./api/tool-add.md)
 
 ## Update
 
-* Patch a tool's safety notes
+* [Patch a tools's safety information](./api/tool-update-safety-information.md)
+
+## Delete
+
+* [Delete a tool by ID](./api/ttool-delete-id.md)

@@ -1,18 +1,18 @@
-# Delete task by ID
+# Delete tool
 
-Removes a [`task`](task.md) object specified by the `id` parameter.
+Deletes a [`tool`](tool.md) object from the HaciendaOps instance.
 
 ## Request URL
 
 **Method**: `DELETE`
 
-**URL**: `{{base_url}}/task/{taskId}`
+**URL**: `{{base_url}}/tool/{toolId}`
 
 ## Parameter
 
 | Name | Variable |
 | ---- | ---------|
-| `taskId` | integer |
+| `toolId` | integer |
 
 ## Header
 

@@ -6,7 +6,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
 
 **Method**: `POST`
 
-**URL**: `{{base_url}}/tool`
+**URL**: `{{base_url}}/tool/{toolId}`
 
 ## Parameter
 
@@ -37,7 +37,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
 }
 ```
 
-## Return body
+## Response body
 
 ```json
 

@@ -1,4 +1,4 @@
-# Update task (completed)
+# Update a task's completion status
 
 Updates a [`task`](task.md) object's status specified by the `completed` parameter.
 
@@ -6,7 +6,7 @@ Updates a [`task`](task.md) object's status specified by the `completed` paramet
 
 **Method**: `PATCH`
 
-**URL**: `{{base_url}}/task/1`
+**URL**: `{{base_url}}/task/{taskId}`
 
 ## Parameter
 
@@ -33,7 +33,7 @@ Updates a [`task`](task.md) object's status specified by the `completed` paramet
 }
 ```
 
-## Return body
+## Response body
 
 ```json
 

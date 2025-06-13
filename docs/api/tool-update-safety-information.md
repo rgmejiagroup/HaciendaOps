@@ -6,7 +6,7 @@ Updates a [`tool`](tool.md) object's saftey information in the HaciendaOps insta
 
 **Method**: `PATCH`
 
-**URL**: `{{base_url}}/tool/1`
+**URL**: `{{base_url}}/tool/{tooId}`
 
 ## Parameter
 
@@ -32,7 +32,7 @@ Updates a [`tool`](tool.md) object's saftey information in the HaciendaOps insta
 }
 ```
 
-## Return body
+## Response body
 
 ```json
 
