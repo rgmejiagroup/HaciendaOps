@@ -42,16 +42,16 @@ Sample `task` resource
 
 ## Read
 
-* [Get all tasks](./api/task-get-all.md)
+* [Get all tasks](./task-get-all.md)
 
 ## Create
 
-* [Add a new task](./api/task-add.md)
+* [Add a new task](./task-add.md)
 
 ## Update
 
-* [Patch a task's completion status](./api/task-update-completed.md)
+* [Patch a task's completion status](./task-update-completed.md)
 
 ## Delete
 
-* [Delete a task by ID](./api/task-delete-id.md)
+* [Delete a task by ID](./task-delete-id.md)

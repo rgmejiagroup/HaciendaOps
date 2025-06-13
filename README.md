@@ -13,6 +13,8 @@ This repository includes a Markdown-based training and operations guide used by 
 - `tool.md` – Equipment profiles + safety/Kaizen notes
 - `overview.md` – How to use the Field Guide system
 
+For information about this API and these resources, see the [HaciendaOps field guide overview](./docs/index.md) and the [HaciendaOps quickstart guide](./docs/quickstart.md).
+
 ---
 
 ## 🎓 Educational use case

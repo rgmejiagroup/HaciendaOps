@@ -16,13 +16,9 @@ the entire ecosystem can be adequately tracked.
 - Reduces mistakes (e.g., using toxic plants or wrong tools)
 - Supports e-learning and visual training
 
-## Integration
-
-Each entry includes a `kaizen_notes` section for observations or improvements from the field, which may be reviewed and approved over time.
-
 ## Features
 
-For a detailed list of the functions and features of HaciendaOps, see the [Quickstart guide](docs/quickstart.md).
+For a detailed list of the functions and features of HaciendaOps, see the [HaciendaOps quickstart guide](./quickstart.md).
 
 ## HaciendaOps prerequisites
 
