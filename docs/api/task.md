@@ -4,11 +4,11 @@ layout: page
 
 # `task` resource
 
-Base endpoint:
+## Base endpoint
 
 ```shell
 
-{server_url}/task
+{base_url}/task
 ```
 
 Provides information about pending and ongoing tasks at the farm using HaciendaOps API.
@@ -18,21 +18,22 @@ Provides information about pending and ongoing tasks at the farm using HaciendaO
 Sample `task` resource
 
 ```json
-
-{
-    "id": 1,
-    "title": "Morning irrigation",
-    "description": "Water the plants in Garden A",
-    "task_type": "Watering",
-    "due_date": "2024-06-05",
-    "completed": false,
-    "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
-}
+[
+    {
+        "id": 1,
+        "title": "Morning irrigation",
+        "description": "Water the plants in Garden A",
+        "task_type": "Watering",
+        "due_date": "2024-06-05",
+        "completed": false,
+        "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
+    }
+]
 ```
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | number | The task's unique record ID |
+| `id` | integer | The task's unique record ID |
 | `title` | string | The title of the task |
 | `description` | string | A short description of the task |
 | `task_type` | string | The task's category |
@@ -51,6 +52,7 @@ Sample `task` resource
 ## Update
 
 * [Patch a task's completion status](./task-update-completed.md)
+* [Put an entire task](./task-update-all.md)
 
 ## Delete
 

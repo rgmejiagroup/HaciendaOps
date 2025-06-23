@@ -1,23 +1,23 @@
-# Add tool
+# Update entire tool
 
-Adds a [`tool`](tool.md) object to the HaciendaOps instance.
+Updates an entire [`tool`](tool.md) object in the HaciendaOps instance.
 
 ## Request URL
 
-**Method**: `POST`
+**Method**: `PUT`
 
-**URL**: `{{base_url}}/tool/{toolId}`
+**URL**: `{{base_url}}/tool/{toolID}`
 
 ## Properties
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | integer | The tool's unique record ID |
+| `id` | integer | The task's unique record ID |
 | `name` | string | The name of the tool |
 | `usage` | string | The tool's intended purpose |
 | `safety_notes` | string | Saftey information for the tool |
 | `training_required` | boolean | If false, no training necessary to use the tool. If true, training is required to use the tool. |
-| `kaizen_notes` | string | Details about tool improvements |
+| `kaizen_notes` | string | Details about task improvements |
 
 ## Header
 
@@ -32,7 +32,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
-        "safety_notes": "Always sheath after use",
+        "safety_notes": "Always sheath after use and return to drawer",
         "training_required": false,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
     }
@@ -48,7 +48,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
-        "safety_notes": "Always sheath after use",
+        "safety_notes": "Always sheath after use and return to drawer",
         "training_required": false,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
     }

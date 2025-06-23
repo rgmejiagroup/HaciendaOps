@@ -1,12 +1,12 @@
-# Update a task's completion status
+# Update entire task
 
-Updates a [`task`](task.md) object's status specified by the `completed` parameter.
+Updates an entire [`task`](task.md) object in the HaciendaOps instance.
 
 ## Request URL
 
-**Method**: `PATCH`
+**Method**: `PUT`
 
-**URL**: `{{base_url}}/task/{taskId}`
+**URL**: `{{base_url}}/task/{taskID}`
 
 ## Properties
 
@@ -17,7 +17,7 @@ Updates a [`task`](task.md) object's status specified by the `completed` paramet
 | `description` | string | A short description of the task |
 | `task_type` | string | The task's category |
 | `due_date` | string | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due |
-| `completed` | boolean | The status of the task |
+| `completed` | string | The status of the task |
 | `kaizen_notes` | string | Details about task improvements |
 
 ## Header
@@ -30,22 +30,29 @@ Updates a [`task`](task.md) object's status specified by the `completed` paramet
 
 [
     {
-         "completed": true
-    }
-]
-```
-
-## Response body
-
-```json
-[
-    {
-        "id": 1,
+        "id": 4,
         "title": "Morning irrigation",
         "description": "Water the plants in Garden A",
         "task_type": "Watering",
         "due_date": "2024-06-05",
-        "completed": true,
+        "completed": false,
+        "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
+    }
+]
+```
+
+## Return body
+
+```json
+
+[
+    {
+        "id": 4,
+        "title": "Morning irrigation",
+        "description": "Water the plants in Garden A",
+        "task_type": "Watering",
+        "due_date": "2024-06-05",
+        "completed": false,
         "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
     }
 ]

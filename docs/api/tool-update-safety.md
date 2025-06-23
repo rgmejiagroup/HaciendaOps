@@ -1,10 +1,10 @@
-# Add tool
+# Update tool (safety_notes)
 
-Adds a [`tool`](tool.md) object to the HaciendaOps instance.
+Updates a [`tool`](tool.md) object's saftey information in the HaciendaOps instance.
 
 ## Request URL
 
-**Method**: `POST`
+**Method**: `PATCH`
 
 **URL**: `{{base_url}}/tool/{toolId}`
 
@@ -29,12 +29,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
 
 [
     {
-        "id": "1",
-        "name": "Machete",
-        "usage": "Clearing light brush manually",
-        "safety_notes": "Always sheath after use",
-        "training_required": false,
-        "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
+        "safety_notes": "Always sheath after use and return to drawer",
     }
 ]
 ```
@@ -48,7 +43,7 @@ Adds a [`tool`](tool.md) object to the HaciendaOps instance.
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
-        "safety_notes": "Always sheath after use",
+        "safety_notes": "Always sheath after use and return to drawer",
         "training_required": false,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
     }

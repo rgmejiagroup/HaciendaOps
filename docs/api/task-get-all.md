@@ -8,7 +8,7 @@ Obtains a list of [`task`](task.md) objects from the HaciendaOps instance.
 
 **URL**: `{{base_url}}/task/`
 
-## Parameters
+## Properties
 
 N/A
 
@@ -23,6 +23,7 @@ N/A
 ## Return body
 
 ```json
+[
     {   
         "id": 1,
         "title": "Morning irrigation",
@@ -40,6 +41,7 @@ N/A
         "due_date": "2024-06-06",
         "completed": false
     }
+]
 ```
 
 ## Responses

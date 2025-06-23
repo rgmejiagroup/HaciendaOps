@@ -8,7 +8,7 @@ Adds a [`task`](task.md) object to the HaciendaOps instance.
 
 **URL**: `{{base_url}}/task/{taskId}`
 
-## Parameter
+## Properties
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -27,32 +27,33 @@ Adds a [`task`](task.md) object to the HaciendaOps instance.
 ## Request body
 
 ```json
-
-{
-    "id": 1,
-    "title": "Morning irrigation",
-    "description": "Water the plants in Garden A",
-    "task_type": "Watering",
-    "due_date": "2024-06-05",
-    "completed": false,
-    "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
-}
+[
+    {
+        "id": 1,
+        "title": "Morning irrigation",
+        "description": "Water the plants in Garden A",
+        "task_type": "Watering",
+        "due_date": "2024-06-05",
+        "completed": false,
+        "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
+    }
+]
 ```
 
 ## Response body
 
 ```json
-
-{
-    "id": 1,
-    "title": "Morning irrigation",
-    "description": "Water the plants in Garden A",
-    "task_type": "Watering",
-    "due_date": "2024-06-05",
-    "completed": false,
-    "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
-}
-
+[
+    {
+        "id": 1,
+        "title": "Morning irrigation",
+        "description": "Water the plants in Garden A",
+        "task_type": "Watering",
+        "due_date": "2024-06-05",
+        "completed": false,
+        "kaizen_notes": "Consider changing to sunrise-only watering and reduce evaporation."
+    }
+]
 ```
 
 ## Responses

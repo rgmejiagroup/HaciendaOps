@@ -1,10 +1,11 @@
-# HaciendaOps field guide (HFG)
+# HaciendaOps field guide
 
 The HaciendaOps field guide is a lightweight resource for field workers and new hires. It contains trusted information about plant species, animal traits, and tool usage. By using an API inspired by a traditional to-do list, small farms can simplify their agricultural responsibilities with task automation.
 
 ## What is the HaciendaOps field guide?
 
-This REST API is a tool that allows small farms and agricultural teams to track ongoing tasks and support both fieldwork and trading activities.
+This REST API is a tool that allows small farms and agricultural teams to track ongoing tasks and support both fieldwork and trading activities. Team members 
+working with this API should fork the repository and expand on the existing field guide resources to bolster our working information.
 
 Farmers can also record produce-to-market steps and retrieve their daily priorities or task updates with ease. By combining
 the task management features of the API along with the record keeping features of monitoring animal species on the farm,
@@ -32,6 +33,7 @@ long-term support, also known as `LTS`, version of the Windows, MacOS, or Linux 
     - A current or `LTS` version of `node.js`
     - Version 0.17.4 or later of [json-server](https://www.npmjs.com/package/json-server)
     - A current copy of the database file. You can get this by syncing your fork.
+    - The [Postman desktop app](https://www.postman.com/downloads/). Because you run the **To-Do service** on your development system with an `http://localhost` host name, the web-version of Postman can't perform the exercises.
 
 ## Contributing to the API
 

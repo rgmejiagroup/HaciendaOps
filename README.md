@@ -1,29 +1,19 @@
 # 🌱 HaciendaOps – Field guide system
 
-**HaciendaOps** is a documentation-first knowledge system supporting sustainable agriculture and ecotourism teams in rural Nicaragua. Originally designed as a Flask API, this project now focuses on structured field knowledge, Kaizen workflows, and educational integration.
+**HaciendaOps** is a REST API knowledge management system supporting sustainable agriculture and ecotourism teams in rural Nicaragua. This project focuses on structured field knowledge, [Kaizen](https://en.wikipedia.org/wiki/Kaizen) workflows, and educational integration.
 
 ## 🧭 Field guide overview
 
-This repository includes a Markdown-based training and operations guide used by rural teams and students to support sustainable farming and eco-projects across 2,000+ manzanas of land.
+This repository includes a Markdown-based training and operations guide used by rural teams and students to support sustainable farming and eco-projects across 2,000+ manzanas (approximately 1.74 acres) of land.
 
 **API resources include:**
 
 - `plant.md` – Medicinal, aromatic, and food crops
-- `animal.md` – Livestock specs (e.g., Pelibuey goats)
+- `animal.md` – Livestock specifications
 - `tool.md` – Equipment profiles + safety/Kaizen notes
-- `overview.md` – How to use the Field Guide system
+- `overview.md` – How to use the Field guide system
 
-For information about this API and these resources, see the [HaciendaOps field guide overview](./docs/index.md) and the [HaciendaOps quickstart guide](./docs/quickstart.md).
-
----
-
-## 🎓 Educational use case
-
-This project was restructured as part of a university-level documentation course to demonstrate:
-
-- Multi-layered documentation design
-- Integration of field, operational, and legal insights
-- Modular growth from docs to API → automation
+For information about this API and these resources, see the [HaciendaOps field guide overview](https://lyerdev.github.io/HaciendaOps/) and the [HaciendaOps quickstart guide](https://lyerdev.github.io/HaciendaOps/quickstart.html).
 
 ---
 
