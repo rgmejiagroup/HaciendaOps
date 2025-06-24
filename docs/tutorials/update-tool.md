@@ -6,11 +6,12 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
 
 * An existing database with tools
 * Access to a command line or Postman
-    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
+    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls. If using the command line, cURL is necessary to complete
+      any API requests.
 
 ## Update the toolbox
 
-1. Confirm the local HaciendaOps instance is running.
+1. Start a local HaciendaOps instance.
    * If the service isn't running, run the following command:
 
      ```shell
@@ -24,24 +25,24 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
     * **Header**: `Content-Type: application/json`
     * **Return Body**:
 
-```json
-    {
+      ```json
+       {
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
         "safety_notes": "Always sheath after use",
         "training_required": false,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
-    },
-    {
+       },
+       {
         "id": "2",
         "name": "RFID Ear Tag Scanner",
         "usage": "Identify and track goats in fenced areas",
         "safety_notes": "Keep away from water; charge weekly",
         "training_required": true,
         "kaizen_notes": "Alex suggested waterproof case for rainy season"
-    }
-```
+       }
+      ```
 
 4. Once a tool needs safety or training updates, create a new request with the following values:
     * **METHOD**: PATCH
@@ -49,32 +50,30 @@ The HaciendaOps API allows users to update tools with the intent to keep trainin
     * **Header**: `Content-Type: application/json`
     * **Request Body**:
 
-```json
+      ```json
+      {
+       "training_required": true,
+      }
+      ```
 
-{
-    "training_required": true,
-}
-```
-
-5. To confirm the tool now has the correct information, create a request with the following values:
+6. To confirm the tool now has the correct information, create a request with the following values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/tool/{previoustoolId}`
     * **Header**: `Content-Type: application/json`
     * **Return Body**:
 
-```json
-
-    {
+      ```json
+      {
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
         "safety_notes": "Always sheath after use",
         "training_required": true,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
-    }
-```
+      }
+      ```
 
-6. Postman returns the preceeding response if the tool modification was successful.
+7. Postman returns the preceeding response if the tool modification was successful.
 
 ## Result
 

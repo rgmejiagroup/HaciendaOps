@@ -4,11 +4,11 @@ layout: page
 
 # `tool` resource
 
-Base endpoint:
+## Base endpoint
 
 ```shell
 
-{server_url}/task
+{base_url}/tool
 ```
 
 Provides information about tools at the farm, including how to use the tool and saftey details via the HaciendaOps API.
@@ -31,7 +31,7 @@ Sample `tool` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | number | The task's unique record ID |
+| `id` | integer | The task's unique record ID |
 | `name` | string | The name of the tool |
 | `usage` | string | The tool's intended purpose |
 | `safety_notes` | string | Saftey information for the tool |
@@ -48,7 +48,8 @@ Sample `tool` resource
 
 ## Update
 
-* [Patch a tools's safety information](./tool-update-safety-information.md)
+* [Patch a tools's safety information](./tool-update-safety.md)
+* [Put an entire tool](./tool-update-all.md)
 
 ## Delete
 

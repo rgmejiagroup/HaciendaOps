@@ -8,7 +8,7 @@ Obtains a list of available [`tool`](tool.md) objects from the HaciendaOps insta
 
 **URL**: `{{base_url}}/tool`
 
-## Parameters
+## Properties
 
 N/A
 
@@ -23,6 +23,7 @@ N/A
 ## Return body
 
 ```json
+[
     {
         "id": "1",
         "name": "Machete",
@@ -39,6 +40,7 @@ N/A
         "training_required": true,
         "kaizen_notes": "Alex suggested waterproof case for rainy season"
     }
+]
 ```
 
 ## Responses

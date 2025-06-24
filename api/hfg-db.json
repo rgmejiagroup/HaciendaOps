@@ -1,14 +1,14 @@
 {
     "task": [
-      {
+        {
         "id": 1,
         "title": "Morning irrigation",
         "description": "Water the plants in Garden A",
         "task_type": "Watering",
         "due_date": "2024-06-05",
         "completed": false,
-        "kaizen_notes": "Consider shifting to sunrise-only watering to reduce evaporation."
-      },
+        "kaizen_notes": "Consider shifting to sunrise-only watering to reduce evaporation"
+        },
         {
         "id": 2,
         "title": "Apply compost",
@@ -16,10 +16,10 @@
         "task_type": "Fertilizing",
         "due_date": "2024-06-06",
         "completed": false
-      }
-    ]
-    ,"plant":[
-      {
+        }
+    ],
+    "plant":[
+        {
         "id": "1",
         "name": "Tithonia diversifolia",
         "type": "plant_tithonia",
@@ -28,34 +28,34 @@
         "status": "thriving",
         "toxicity": "none",
         "kaizen_notes": "Suggested for ginger intercropping after observation by Rosa"
-      }
-    ]
-    ,"tool": [
-      {
+        }
+    ],
+    "tool": [
+        {
         "id": "1",
         "name": "Machete",
         "usage": "Clearing light brush manually",
         "safety_notes": "Always sheath after use",
         "training_required": false,
         "kaizen_notes": "Preferred over sickle for zone clearing by Rosa"
-      },
-      {
+        },
+        {
         "id": "2",
-        "name": "RFID Ear Tag Scanner",
+        "name": "RFID ear tag scanner",
         "usage": "Identify and track goats in fenced areas",
         "safety_notes": "Keep away from water; charge weekly",
         "training_required": true,
-        "kaizen_notes": "Alex suggested waterproof case for rainy season"
-      }
-    ]
-    ,"animal":[
-      {
+        "kaizen_notes": "Alex suggests getting a waterproof case for rainy season"
+        }
+    ],
+    "animal":[
+        {
         "id": "1",
-        "species": "Pelibuey Goat",
+        "species": "Pelibuey goat",
         "traits": ["heat tolerant", "docile"],
         "uses": ["grazing", "meat"],
         "rfid_compatible": true,
         "kaizen_notes": "Yordel prefers more mobile males for steeper zones"
-      }
+        }
     ]
 }

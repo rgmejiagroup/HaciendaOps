@@ -1,22 +1,23 @@
 # Deleting tools
 
 The HaciendaOps API allows users to delete existing tools, should something break during work or is no longer needed in the "toolbox."
-or remove tasks that are no longer relevant.
 
 ## Prerequisites
 
 * An existing database with tasks
 * Access to a command line or Postman
-    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
+    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls. If using the command line, cURL is necessary to complete
+      any API requests.
 
 ## Deleting a tool from the toolbox
 
-1. Confirm the local HaciendaOps instance is running.
-   * If the service isn't running, run the following command:
+1. Start a local HaciendaOps instance.
+   * To start the instance, run the following command:
 
      ```shell
-     cd <your-github-workspace>/HaciendaOps/api
+     cd /HaciendaOps/api
      json-server -w hfg-db.json
+     ```
 
 2. Open the Postman app on your computer.
 3. Locate the task you want to delete. For a full list of the tasks currently available in the to-do list, create a new request
@@ -26,7 +27,7 @@ or remove tasks that are no longer relevant.
     * **Header**: `Content-Type: application/json`
     * **Return Body**:
 
-```json
+      ```json
 
         {   
         "id": 1,
@@ -46,7 +47,7 @@ or remove tasks that are no longer relevant.
         "completed": false
         }
 
-```
+      ```
 
 4. After locating the tool to delete, create a new request with the following values:
     * **METHOD**: DELETE

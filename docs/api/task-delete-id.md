@@ -8,9 +8,9 @@ Removes a [`task`](task.md) object specified by the `id` parameter.
 
 **URL**: `{{base_url}}/task/{taskId}`
 
-## Parameter
+## Properties
 
-| Name | Variable |
+| Property name | Variable |
 | ---- | ---------|
 | `taskId` | integer |
 
@@ -24,9 +24,7 @@ N/A
 
 ## Response body
 
-`
-{}
-`
+`{}`
 
 ## Responses
 

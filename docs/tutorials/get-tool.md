@@ -1,4 +1,4 @@
-# Check list of tools
+# View list of tools
 
 The HaciendaOps API allows users to view the existing "toolbox" of all tools available on the farm.
 
@@ -6,16 +6,18 @@ The HaciendaOps API allows users to view the existing "toolbox" of all tools ava
 
 * An existing database with tools
 * Access to a command line or Postman
-    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls.
+    * This tutorial uses Postman, but can use the command line to make the necessary REST API calls. If using the command line, cURL is necessary to complete
+      any API requests.
 
 ## Checking the toolbox
 
-1. Confirm the local HaciendaOps instance is running.
-   * If the service isn't running, run the following command:
+1. Start running a local HaciendaOps instance.
+   * To start the instance, run the following command:
 
      ```shell
-     cd <your-github-workspace>/HaciendaOps/api
+     cd /HaciendaOps/api
      json-server -w hfg-db.json
+     ```
 
 2. Open the Postman app on your computer.
 

@@ -10,7 +10,7 @@ Deletes a [`tool`](tool.md) object from the HaciendaOps instance.
 
 ## Parameter
 
-| Name | Variable |
+| Property name | Variable |
 | ---- | ---------|
 | `toolId` | integer |
 
@@ -24,9 +24,7 @@ N/A
 
 ## Response body
 
-`
-{}
-`
+`{}`
 
 ## Responses
 
